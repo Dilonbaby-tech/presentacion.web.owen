@@ -1,0 +1,89 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 30px;
+}
+
+.tarjeta {
+    max-width: 550px;
+    margin: auto;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.cabecera {
+    background: linear-gradient(135deg, #3984e8, #5ac8e8);
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+
+.foto {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid white;
+    outline: 3px solid #b9dfff;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.contenido {
+    padding: 25px;
+}
+
+.descripcion {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.etiquetas {
+    margin: 25px 0;
+}
+
+.etiqueta {
+    display: inline-block;
+    background-color: #eef5ff;
+    color: #3984e8;
+    border: 1px solid #cce2ff;
+    padding: 12px 18px;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+.contacto {
+    background-color: #fff7eb;
+    border: 2px solid #ffe4bf;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .descripcion {
+        font-size: 17px;
+    }
+}
